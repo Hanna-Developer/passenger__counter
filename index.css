@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(45deg, #ff7e5f, #feb47b); /* Warm gradient background */
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333; /* Text color */
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    max-width: 600px;
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More prominent box shadow */
+    text-align: center;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 36px;
+    color: #ff7e5f; /* Heading color matching the gradient */
+}
+
+h2 {
+    font-size: 28px;
+    margin: 10px 0 20px;
+    color: #feb47b; /* Subheading color matching the gradient */
+}
+
+#buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding: 12px 25px; /* Larger padding for buttons */
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin: 10px 5px;
+    border-radius: 25px; /* Fully rounded buttons */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Button shadow */
+}
+
+button:hover {
+    transform: translateY(-2px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+#increment-btn {
+    background: #ff7e5f; /* Matching gradient color */
+}
+
+#save-btn {
+    background: #feb47b; /* Matching gradient color */
+}
+
+#save-el {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px; /* More space above save element */
+    color: #333; /* Text color */
+}
